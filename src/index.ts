@@ -11,7 +11,7 @@ import { Env, ChatMessage } from "./types";
 
 // Model ID for Workers AI model
 // https://developers.cloudflare.com/workers-ai/models/
-const MODEL_ID = "anthropic/claude-fable-5";
+const MODEL_ID = "@cf/anthropic/claude-fable-5";
 
 // Default system prompt
 const SYSTEM_PROMPT =
